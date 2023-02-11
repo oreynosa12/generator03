@@ -34,7 +34,7 @@ function generatePassword(){
         console.log(passwordOptions, password)
     }
 
-    if(includeAlphabetLower){
+    if(includeSymbol){
         passwordOptions += symbol
         password += random(symbol)
         console.log(passwordOptions, password)
